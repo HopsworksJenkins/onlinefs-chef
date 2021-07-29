@@ -2,7 +2,7 @@ source "https://supermarket.chef.io"
 
 metadata
 
-cookbook 'kagent', github: "logicalclocks/kagent-chef", branch: "master"
-cookbook 'ndb', github: "logicalclocks/ndb-chef", branch: "master"
-cookbook 'consul', github: "logicalclocks/conda-chef", branch: "master"
-cookbook 'kkafka', github: "logicalclocks/kafka-cookbook", branch: "master"
+cookbook 'kagent', github: "hopsworksjenkins/kagent-chef", branch: "1790-ee"
+cookbook 'ndb', github: "hopsworksjenkins/ndb-chef", branch: "1790-ee"
+cookbook 'consul', github: "hopsworksjenkins/conda-chef", branch: "1790-ee"
+cookbook 'kkafka', github: "hopsworksjenkins/kafka-cookbook", branch: "1790-ee"
