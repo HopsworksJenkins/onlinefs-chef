@@ -3,7 +3,7 @@ include_attribute "ndb"
 include_attribute "hops"
 
 default['onlinefs']['version']                = "1.5-SNAPSHOT"
-default['onlinefs']['download_url']           = "#{node['download_url']}/onlinefs/#{node['onlinefs']['version']}/onlinefs.tgz"
+default['onlinefs']['download_url']           = "https://repo.hops.works/dev/gibson/onlinefs/#{node['onlinefs']['version']}/onlinefs.tgz"
 
 default['onlinefs']['user']                   = "onlinefs"
 default['onlinefs']['user_id']                = '1521'
